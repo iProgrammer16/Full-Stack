@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700);
+
+body {
+    margin: 0;
+    font-family: "Rubik",sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 640px;
+    margin-top: 8%;
+}
+.section-image {
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 10%;
+}
+.section-info {
+    width: 23%;
+    height: 100%;
+    float: left;
+}
+.section-info h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-family: "Rubik",sans-serif;
+}
+.section-info p {
+    line-height: 26px;
+    font-size: 15px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    color: #777;
+}
+.section-info button {
+    border: none;
+    padding: 15px 20px;
+    background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%) , radial-gradient(circle at top left,#4458dc,#854fee);
+    border-radius: 7px;
+}
+.section-info a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
