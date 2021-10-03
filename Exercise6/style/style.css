@@ -14,26 +14,22 @@ body {
     width: 100%;
     height: 20%;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 .top-color {
-    font-family: "montserrat-bold", sans-serif;
-    font-size: 1.7rem;
-    line-height: 1.333;
-    text-transform: uppercase;
-    letter-spacing: .25rem;
     color: #39b54a;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 p {
     color: #757575;
-    font-family: "lora-regular", serif;
+    font-family: 'Lora', serif;
 }
 .line {
-    width: 35%;
-    height: 1px;
+    width: 400px;
+    height: 0.4px;
     margin: auto;
     background-color: #DDD;
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
 .info {
     width: 100%;
@@ -56,4 +52,8 @@ p {
     width: 85%;
     height: 100%;
     float: left;
+}
+.item-info h3 {
+    margin-top: 12px;
+    font-family: 'Montserrat', sans-serif;
 }
