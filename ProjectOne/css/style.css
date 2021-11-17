@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #24252a;
+}
+.navbar .logo {
+    width: 180px;
+    height: 100%;
+    background-color: #DDD;
+    float: left;
+}
+.navbar .links {
+    float: left;
+    margin: 22px;
+}
+.navbar .links ul {
+    list-style-type: none;
+}
+.navbar .links ul li {
+    text-decoration: none;
+    margin: 22px;
+    display: inline;
+}
+.navbar .links ul li a {
+    text-decoration: none;
+    color: white;
+}
+.navbar .links ul li a:hover {
+    color: #DDDD;
+}
+.sidebar {
+    width: 180px;
+    height: 100%;
+    background-color: #24252a;
+    float: left;
+}
+.sidebar .tasks ul li a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+.sidebar .last .line {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+.sidebar .last {
+    width: 180px;
+    height: 200px;
+    margin-top: 582px;
+    background-color: #24252a;
+}
+.sidebar .last h3 {
+    padding: 70px 10px;
+    color: white;
+}
+.info {
+    width: 90.5%;
+    height: 899px;
+    background-color: #d6e3ec;
+    float: left;
+    overflow-x: hidden;
+}
+.info .tasks {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.info .tasks .task {
+    text-align: center;
+}
+.info .tasks .task input {
+    width: 300px;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.info .tasks textarea {
+    width: 500px;
+    height: 100px;
+}
+.info .tasks button {
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+    border-style: none;
+    margin-top: 7px;
+    border: 1px solid #24252a;
+}
+.info .tasks button:hover {
+    background-color: #DDDD;
+}
+.info .line {
+    width: 100%;
+    height: 1px;
+    margin-top: 10px;
+    background-color: white;
+}
+.divred {
+    background-color: #eef2f5;
+}
+.divblue {
+    background-color: #ffffff;
+}

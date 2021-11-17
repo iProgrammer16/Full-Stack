@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>To Do list</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Nav bar -->
+        <nav class="navbar">
+            <div class="logo">
+                <h3>Logo</h3>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Tasks</a></li>
+                    <li><a href="#">Notes</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Side bar -->
+        <section class="sidebar">
+            <div class="tasks">
+                <ul>
+                    <li><a href="#">C++</a></li>
+                    <li><a href="#">Java</li>
+                    <li><a href="#">C#</a></li>
+                </ul>
+            </div>
+            <div class="last">
+                <div class="line"></div>
+                <h3>iProgrammer16</h3>
+            </div>
+        </section>
+
+        <!-- All Tasks here -->
+        <section class="info">
+            <div class="tasks">
+                <div class="task">
+                    <input type="text" name="task" id="task" placeholder="Enter your task">
+                </div>
+                <div class="details">
+                    <textarea placeholder="Enter the details" id="details"></textarea>
+                </div>
+                <button onclick="add()">Add</button>
+            </div>
+            <div class="line"></div>
+            <div class="alltask">
+                <div id="mytask">
+                    <h3></h3>
+                </div>
+                <div id="mydetails">
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        
+        <script src="js/script.js"></script>
+    </body>
+</html>
